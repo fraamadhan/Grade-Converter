@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Converter</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container"> 
+        <h1>Numeric Grade Converter to Letter Grade </h1>
+        <div class="subContainer">
+            <div class="content">
+                <label for="numGrade">Input Numeric Grade:</label>
+                <input type="text" id="numGrade" name="numGrade">
+                <label for="letterGrade">=</label>
+                <input type="text" name="letterGrade" id="letterGrade" disabled>
+                <button type="button" id="convert">Convert</button>
+                <div class="wrap">
+                    <div class="listGrade">
+                        <p>0 - 40 = E</p>
+                        <p>41 - 55 = D</p>
+                        <p>56 - 60 = C</p>
+                        <p>61- 65 = BC</p>
+                        <p>66 - 70 = B</p>
+                        <p>71 - 80 = AB</p>
+                        <p>81 - 100 = A</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../javascript/gradeConverter.js"></script>
+</html>

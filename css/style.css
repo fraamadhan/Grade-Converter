@@ -1,0 +1,44 @@
+.container {
+  max-width: max-content;
+  margin: auto;
+  margin-top: 15%;
+  background-color: grey;
+  padding: 50px;
+  box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+h1 {
+  font-family: "Courier New";
+}
+.subContainer {
+  margin: auto;
+  width: max-content;
+}
+.listGrade {
+  text-align: justify;
+  margin-top: 10px;
+}
+.content {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.wrap {
+  margin: auto;
+  width: max-content;
+}
+p {
+  margin: 2px;
+}
+#letterGrade {
+  background-color: #3d8361;
+  color: white;
+}
+
+#convert {
+  clear: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 15px;
+  box-shadow: 4.4px 8.8px 8.8px rgba(158, 158, 158, 0.36);
+}
